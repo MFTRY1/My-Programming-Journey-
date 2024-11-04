@@ -1,7 +1,7 @@
 const int buttonPin = 26;
 void setup() {
-    pinMode(buttonPin, INPUT);
-    Serial.begin(9600);
+   pinMode(buttonPin, INPUT);
+   Serial.begin(9600);
 }
 void loop() {
    int buttonState = digitalRead(buttonPin);
